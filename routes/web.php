@@ -13,6 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/home', function () {
+    return view('halaman home');
+});
+
+Route::get('/hot-manga', function () {
+    return view('halaman hot-manga');
+});
+
+Route::get('/genre', function () {
+    return view('halaman genre');
+});
+
+Route::get('/login', function () {
+    return view('halaman login');
+});
+
+Route::get('/desc', function () {
+    return view('halaman desc');
 });

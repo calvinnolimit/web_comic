@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/5823e1bed7.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  
+    <title>Home</title>
+  </head>
+  <body class="body-head">
+    <nav class="fixed-top d-flex align-items-center">
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <a id="active" href="index.html">Home</a>
+        </li>
+        <!-- <li>
+          <a href="manga-list.html">Manga List</a>
+        </li> -->
+        <li>
+          <a href="hot-manga.html">Hot Manga</a>
+        </li>
+        <li>
+          <a href="genre.html">Genre</a>
+        </li>
+      </ul>
+      <form class="form">
+        <button>
+          <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="search">
+            <path d="M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9" stroke="currentColor" stroke-width="1.333" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </button>
+        <input class="input" placeholder="Type your text" required="" type="text" />
+        <button type="reset">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </form>
+
+      <img src="img/profile.png" class="user-pic" onclick="toggleMenu()" />
+      <div class="sub-menu-warp" id="subMenu">
+        <div class="sub-menu">
+          <div class="user-info">
+            <img src="img/user.png" alt="" srcset="" />
+            <h2>Guest</h2>
+          </div>
+          <hr />
+
+          <a href="account/login.html" class="sub-menu-link">
+            <div class="ps">
+              <i class="bi bi-box-arrow-in-right"></i>
+            </div>
+            <p>Login</p>
+            <span>></span>
+          </a>
+          <a href="account/sign-up.html" class="sub-menu-link">
+            <div class="pb">
+              <i class="bi bi-person-plus-fill"></i>
+            </div>
+            <p>Sign up</p>
+            <span>></span>
+          </a>
+        </div>
+      </div>
+      <!-- <li class="logo"><a href="#"><i class="bi bi-person-fill"></i></a></li> -->
+    </nav>
+    <div class="current">
+      <p class="p-info"><a href="index.html">Home Page >></a>Acchi Kocchi</p>
+    </div>
+
+    <div class="bot">
+    <div class="box12">
+      <div class="left">
+        <span class="img-manga">
+          <a href="" title="Acchi Kocchi"><img src="img/sampul/acchkcchi.png"></a>
+          </span>
+      </div>
+      <h1 class="title">Acchi Kocchi</h1>
+      <table class="meja">
+        <tbody>
+          <tr>
+            <td class="label">Author :</td>
+            <td class="isi">Ishiki</td>
+          </tr>
+          <tr>
+            <td class="label">Status :</td>
+            <td class="isi">Ongoing</td>
+          </tr>
+          <tr>
+            <td class="label">Genre(s) :</td>
+            <td class="isi">Comedy,Romance,School life,Seinen</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="manga-vinfo">
+        <p>
+          <span class="time">Updated :</span>
+          <span class="now">Des 12,2022 11:30 AM</span>
+        </p>
+        <p>
+          <span class="time">Rating :</span>
+          <span class="now"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i></span>
+        </p>
+        <p>
+          <span class="time">View :</span>
+          <span class="now">15M</span>
+        </p>
+      </div>
+      <!-- <div class="box21">
+        <h2>Acchi Kocchi</h2>
+        <li>Author : Ishiki</li>
+        <li>Status : Ongoing</li>
+        <li>Genres : Comedy,Romance,School life,Seinen</li>
+        <li>Rating : 2/10 </li>
+        <li>View   : 5.3M </li>
+      </div> -->
+      <div class="salome">
+        <hr>
+        <p class="desc-b">Deskripsi:</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsum quaerat consequuntur commodi, at necessitatibus voluptatum similique cupiditate ut provident nesciunt autem molestias. Laudantium illum assumenda ipsa sequi, eos placeat officiis delectus sit pariatur iste, labore quos ea veritatis voluptate fuga molestias nemo expedita laboriosam. Perferendis placeat facilis assumenda at totam consequatur quod excepturi fuga cupiditate quasi explicabo beatae, perspiciatis delectus officia praesentium ipsam rem repellat doloremque suscipit nisi nemo officiis molestias dignissimos earum? Voluptatibus porro praesentium quaerat consequatur eaque corporis. A reprehenderit quisquam at consectetur explicabo eveniet nobis illum, atque, hic, blanditiis est aut deleniti! Laboriosam ex harum, sed obcaecati modi iste fugiat eaque, commodi sint et officiis explicabo laudantium ut vel iusto, quis doloremque! In reprehenderit quaerat esse, officiis vel inventore non sit nemo magnam sint aperiam dignissimos a necessitatibus rerum sequi praesentium amet molestias, placeat ex officia hic recusandae maiores. Facere, recusandae eius exercitationem dolores sequi sit, odit est sint quia porro eveniet amet hic in architecto non! Ut nostrum deleniti at sint minima nesciunt aliquam consequuntur rerum? Recusandae hic officia aliquid nihil aliquam fugiat sit amet cum deserunt repudiandae blanditiis ullam eaque voluptatem placeat laudantium possimus aperiam, odit quam. Placeat ipsam, tenetur ad necessitatibus error inventore autem unde exercitationem amet neque in saepe atque iste, cum et? Perferendis placeat qui nostrum dolore veniam, voluptas est molestias? A beatae harum expedita? Dignissimos voluptatem saepe blanditiis dolorem veniam debitis magnam voluptate asperiores illum molestias odio ipsa magni eveniet, voluptatum, earum soluta unde voluptas. Reiciendis magni debitis dolorem quas, omnis earum temporibus unde impedit alias et ipsam vero eum iusto repudiandae provident excepturi distinctio porro, officiis placeat doloremque dolorum harum atque exercitationem eius? Iusto inventore quos atque unde architecto soluta dolorem ducimus possimus, ratione tenetur nulla nam, accusamus impedit adipisci corporis obcaecati. Aut quis nobis, ipsam maiores a deleniti in amet. Eum obcaecati harum aliquam deleniti rem laboriosam dolore numquam nemo possimus corrupti in blanditiis nihil inventore expedita recusandae, vero repellat eligendi. Enim maxime perspiciatis possimus consectetur ipsa earum magni, odit dignissimos, dolor delectus quidem voluptate pariatur? Corrupti earum sapiente cum nostrum? Illum consequatur tenetur sit corporis ea quis nulla, delectus provident ipsa eveniet rem laudantium fugit totam minus facilis quae id omnis impedit eius praesentium molestias dicta laborum dolore officia? Optio aliquam odit sed sit at iure! Repellat cumque esse sed, blanditiis voluptatum pariatur eum doloremque sit debitis provident rerum, voluptate repudiandae veritatis reiciendis dolorem quod placeat odit!</p>
+        </div>
+        <input type="checkbox" name="" id="" class="salome-button">
+    </div>
+      <div class="chapter-list">
+        <h6>Chapter</h6>
+        <hr>
+        <div class="chapter-number">
+          <a href="chapter-con.html">Chapter 1</a>
+          <a href="">Chapter 2</a>
+          <a href="">Chapter 3</a>
+          <a href="">Chapter 4</a>
+          <a href="">Chapter 5</a>
+          <a href="">Chapter 6</a>
+        </div>
+      </div>
+      </div>
+
+    <div class="footer-head">
+      <div class="footer-content">
+        <div class="hot-link">
+          <div class="follow">
+            <p>Follow Us :</p>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <div class="copyright">
+              <p>About :</p>
+              <p>website ini dibuat sebagai project selama PKL di Idekite</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
+
