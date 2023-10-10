@@ -847,9 +847,9 @@ input:not(:placeholder-shown) ~ .reset {
     overflow: hidden;
 }
 
-.cardi:hover > .details {
-    /* height: 6.7em;s */
-}
+/* .cardi:hover > .details {
+    height: 6.7em;s
+} */
 
 /*
   .containerrr {

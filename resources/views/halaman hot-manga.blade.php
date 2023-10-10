@@ -19,13 +19,13 @@
       </div>
       <ul>
         <li>
-          <a id="active" href="index.html">Home</a>
+          <a id="active" href="/">Home</a>
         </li>
         <li>
-          <a href="hot-manga.html">Hot Manga</a>
+          <a href="/hot-manga">Hot Manga</a>
         </li>
         <li>
-          <a href="genre.html">Genre</a>
+          <a href="/genre">Genre</a>
         </li>
       </ul>
 
